@@ -36314,6 +36314,7 @@ div.tagsinput span.tag a {
 .ac-em{
   display:grid;
   margin: -12px 0px 0px 73px;
+ 
 }
 .actions{
   height: 37px;
@@ -36420,7 +36421,37 @@ div.tagsinput span.tag a {
 }
 
 
+.stat-count{
+  color: red;
+  margin: 2px 0px 0px 310px;
+}
 
+
+@media(max-width:600px){
+  .main ul {
+   
+    width: 384px;
+}
+
+.button-block {
+  display: flow;
+}
+.button-sa {
+  width: 300px;
+  border-radius: 17px;
+  margin: -10px;
+  height: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.ac-em {
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+.stat-count{
+  color: red;
+  margin: 2px 0px 0px 80px;
+}
+}
 
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
